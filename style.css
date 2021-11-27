@@ -12,3 +12,22 @@
     background-color: whitesmoke;
    
 }
+.navRight img{
+    width: 350px;
+    margin-left: 100px;
+   
+}
+
+.navCenter a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navLeft a{
+    padding: 5px;
+    color: #1DA1F2;
+    margin-right: 50px;
+}
