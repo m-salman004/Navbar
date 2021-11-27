@@ -24,10 +24,36 @@
     color: black;
     font-size: large;
     font-weight: bold;
+    
 }
 
 .navLeft a{
-    padding: 5px;
+    padding: 0px;
     color: #1DA1F2;
-    margin-right: 50px;
+    margin-left: 100px;
+   
+}
+@media  screen and (max-width: 425px) {
+    .navCenter{
+        display: none;
+    }
+    .showNavCenter{
+        display: grid;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .showNavCenter a:hover {
+        background-color: lightseagreen;
+    }
+    .toggle-btn{
+        display: block;
+    }
+
+    .toggle-btn:hover {
+        transform: rotate(90deg);
+        transition: 0.3s linear;
+    }
 }
